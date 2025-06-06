@@ -33,7 +33,7 @@ This project demonstrates how to fine-tune Google's [`t5-small`](https://hugging
 ## To run the notebook, Install required libraries:
 pip install transformers datasets accelerate rouge_score nltk
 ## Download NLTK tokenizer rules:
-import nltk
+import nltk <br>
 nltk.download("punkt")
 
 ## 🚀 How to Use the Fine-Tuned Model
