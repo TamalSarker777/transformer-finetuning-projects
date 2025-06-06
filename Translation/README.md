@@ -23,5 +23,6 @@ You can load and test the fine-tuned model locally using:
 ```python
 from transformers import pipeline
 
-translator = pipeline("translation_en_to_fr", model="opus-mt-en-fr-finetuned", tokenizer="opus-mt-en-fr-finetuned")
-translator("The book is on the table.")
+model_checkpoint = "opus_books-en-to-fr-accelerate"
+translator = pipeline("translation", model=model_checkpoint)
+translator("My name is Tamal")
