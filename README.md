@@ -66,8 +66,8 @@ This repository contains 7 deep learning projects across **Natural Language Proc
 
 ## 🧰 Tech Stack
 
-- [Transformers](https://github.com/huggingface/transformers)
-- [Datasets](https://github.com/huggingface/datasets)
+- [Transformers](https://huggingface.co/docs/transformers/en/index)
+- [Datasets](https://huggingface.co/docs/datasets/en/index)
 - PyTorch, torchvision
 - torchmetrics, evaluate
 - Colab/Jupyter for notebooks
