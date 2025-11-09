@@ -14,8 +14,6 @@ This project demonstrates how to fine-tune the Helsinki-NLP/opus-mt-en-fr transl
 
 **Evaluation Metric**: SacreBLEU
 
-# 📊 Results
-Final BLEU Score after 2 epochs: e.g., 42.10 (Replace with your actual values)
 
 # 🚀 How to Use
 You can load and test the fine-tuned model locally using:
