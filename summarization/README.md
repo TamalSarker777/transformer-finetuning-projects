@@ -21,11 +21,11 @@ This project demonstrates how to fine-tune Google's [`t5-small`](https://hugging
 
 | Epoch | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum |
 |-------|---------|---------|---------|------------|
-| 0     | 31.16   | 18.47   | 28.42   | 28.90      |
-| 1     | 31.39   | 18.63   | 28.65   | 29.16      |
-| 2     | 31.41   | 18.61   | 28.72   | 29.19      |
-| 3     | 31.46   | 18.65   | 28.76   | 29.25      |
+| 1     | 31.16   | 18.47   | 28.42   | 28.90      |
+| 2     | 31.39   | 18.63   | 28.65   | 29.16      |
+| 3     | 31.41   | 18.61   | 28.72   | 29.19      |
 | 4     | 31.46   | 18.65   | 28.76   | 29.25      |
+
 
 > ROUGE scores steadily improved and stabilized by epoch 4, indicating strong summarization performance on the dataset.
 
